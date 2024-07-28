@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useReducer } from "react";
 import { globalReducer } from "../reducers/globalReducer";
 import { ADD_TO_FAVORITES, GET_FAVOURITES, GET_RANDOM, GET_SEARCH, GET_TRENDING, LOADING } from "../utils/globalActions";
 
-const apiKey = process.env.VITE_GIPHY_API_KEY;
+const apiKey = import.meta.env.VITE_GIPHY_API_KEY;
 const baseUrl = "https://api.giphy.com/v1/gifs"
 
 

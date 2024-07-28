@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function Loader() {
     return (
         <LoaderStyled>
-            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+            <div className ="lds-ring"><div></div><div></div><div></div><div></div></div>
         </LoaderStyled>
     )
 }
